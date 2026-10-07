@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+    <h1 style="text-align: center;">WELCOME TO LIBRARY</h1>
+    <div style="display: block; font-size: 30px;">
+        <a href="{% url 'b1' %}">Pandemonium</a>
+        <a href="{% url 'b2' %}">Harry Potter</a>
+        <a href="{% url 'b3' %}">The Lord of the rings</a>
+        <a href="{% url 'b4' %}">Murder on the Orient Express</a>
+        <a href="{% url 'b5' %}">Ten blacks</a>
+    </div>
+</body>
+</html>

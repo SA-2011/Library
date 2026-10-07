@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+</head>
+<body>
+    <a href="{% url 'h' %}" style="width: 30px; text-align: center;">Go back</a>
+    <h1 style="text-align: center;">Harry Potter</h1>
+    <h3 style="text-align: center;">The **Harry Potter** series was written by J. K. Rowling and the first book was published in **1997**.</h3>
+    <h3 style="text-align: center;">The series has **7 books (volumes)**. It tells the story of a young wizard and is one of the best-selling book series in the world.</h3>
+    <img src="{% static 'images/2.jpg' %}" alt="EROR" width="900px" height="600">
+</body>
+</html>
